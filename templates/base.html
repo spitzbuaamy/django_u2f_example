@@ -1,0 +1,30 @@
+{% load staticfiles %}
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+
+    <title>Yubikey Example</title>
+
+    {% block extra_head %}
+    {% endblock %}
+
+</head>
+
+
+<body>
+<div id="wrapper">
+
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </div>
+</div>
+</body>
+</html>
